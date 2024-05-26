@@ -46,6 +46,10 @@ form {
   margin-bottom: 20px;
 }
 
+.title-group h1 {
+	letter-spacing: 4px;
+}
+
 .input-group {
   height: 90px;
   display: flex;
