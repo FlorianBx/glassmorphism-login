@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-	font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -29,46 +29,37 @@ body {
   backdrop-filter: blur(5px);
 }
 
-.form-section h1 {
-	font-family: "Poppins", sans-serif;
-}
-
 form {
   display: flex;
   flex-direction: column;
-	justify-content: center;
-	width: 80%;
-	height: 100%;
-}
-
-form label {
-  width: 100%;
-  font-family: "Poppins", sans-serif;
+  justify-content: center;
+  width: 80%;
+  height: 100%;
 }
 
 .title-group {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: center;
-	height: 120px;
-	margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 120px;
+  margin-bottom: 20px;
 }
 
 .input-group {
-	height: 90px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	margin-bottom: 10px;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 10px;
 }
 
 .btn-group {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: center;
-	padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 100px;
 }
 
 input[type="email"], input[type="password"] {
@@ -80,63 +71,65 @@ input[type="email"], input[type="password"] {
   margin-bottom: 10px;
   border-bottom: 0.5px solid gray;
   color: white;
-	padding: 15px 0;
+  padding: 15px 0;
 }
 
 input[type="email"]:focus, input[type="password"]:focus {
-	outline: none;
+  outline: none;
+	border-bottom: 1px solid #3F674D
+}
+input[type="email"]:focus::placeholder, input[type="password"]:focus::placeholder {
+	color: #3F674D;
 }
 
 input[type="email"]::placeholder, input[type="password"]::placeholder {
-	color: gray;
-	font-family: "Poppins", sans-serif;
+  color: gray;
 }
 
 .options {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	width: 100%;
-	margin-bottom: 10px;
-	color: gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+  color: gray;
+}
+
+.options a {
+	text-align: end;
 }
 
 a {
-	font-family: "Poppins", sans-serif;
-	width: 254px;
-	text-decoration: none;
-	color: inherit;
-	cursor: pointer;
-	color: gray;
+  width: 254px;
+  text-decoration: none;
+  color: gray;
+  cursor: pointer;
 }
 
 input[type="checkbox"] {
-	all: unset;
-	padding: 5px;
-	border-radius: 2px;
-	border: 1px solid gray;
+  all: unset;
+  padding: 5px;
+  border-radius: 2px;
+  border: 1px solid gray;
 }
 
 button {
-	width: 100%;
-	margin-bottom: 10px;
-	border: none;
-	padding: 15px;
-	background-color: black;
-	color: white;
-	border-radius: 5px;
-	cursor: pointer;
-	font-family: "Poppins", sans-serif;
+  width: 100%;
+  margin-bottom: 10px;
+  border: none;
+  padding: 15px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .register-text {
-	font-family: "Poppins", sans-serif;
-	text-decoration: none;
-	color: inherit;
-	color: gray;
-	padding-top: 20px;
+  text-decoration: none;
+  color: gray;
+  padding-top: 20px;
 }
 
 .register-text a {
-	color: white;
+  color: white;
 }
